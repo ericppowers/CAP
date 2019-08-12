@@ -1,3 +1,5 @@
+#! python3
+
 train_mass = 22680.14
 train_acceleration = 10.07
 train_distance = 100

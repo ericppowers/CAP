@@ -1,3 +1,5 @@
+#! python3
+
 lovely_loveseat_description = '''
     Lovely Loveseat, or so you thought when you first bought it. The Shady Merchant seemed friendly enough, you suppose.
      Peculiar though - bulging eyes and pale skin, an odd gait, and the most horrendous smell of rotting fish. You 

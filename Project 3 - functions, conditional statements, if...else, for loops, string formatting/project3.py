@@ -1,3 +1,6 @@
+#! python3
+
+
 def ground(weight) -> float:
     if weight <= 2:
         return (1.50 * weight) + 20
