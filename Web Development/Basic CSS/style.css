@@ -1,0 +1,66 @@
+header {
+  background-color: CornflowerBlue;
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+}
+
+.about-me {
+  font-size: 20px;
+  opacity: 0.5;
+}
+
+.title {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+h1 {
+  color: Azure;
+}
+
+body {
+  font-family: "IBM Plex Mono", 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', Courier, monospace;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/learn-css-selectors-visual-rules/hypnotize_bg.png");
+  width: 100%;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  transition: all 0.5s ease-out;
+}
+
+footer:hover {
+  opacity: 0.25;
+}
+
+#projects {
+  display: grid;
+  grid-template-columns: minmax(4rem, 1fr) 1fr 1fr minmax(4rem, 1fr);
+  text-align: center;
+  grid-gap: 1em;
+  padding: 1em;
+}
+
+#web {
+  grid-column: 2;
+}
+
+#design {
+  grid-column: 3;
+}
+
+li {
+  list-style-type: none;
+  line-height: 1.75;
+}
+
+main {
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+/*   outline: 1px solid black; */
+}
+
