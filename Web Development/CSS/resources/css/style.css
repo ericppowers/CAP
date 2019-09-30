@@ -1,0 +1,38 @@
+header {
+    width: 100%;
+    font-weight: bold;
+}
+
+body {
+    font-family: Helvetica;
+}
+
+#mainheader {
+    font-size: 100px;
+    color: khaki;
+    text-align: center;
+    background-image: url(../media/pattern.jpeg)
+}
+
+#brushes {
+    background-color: mediumspringgreen;
+}
+
+section header {
+    font-size: 32px;
+    color: white;
+}
+
+.price {
+    font-weight: bold;
+    color: blue;
+}
+
+#frames {
+    background-color: lightcoral;
+}
+
+
+#paints {
+    background-color: skyblue;
+}
